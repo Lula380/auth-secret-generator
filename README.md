@@ -6,7 +6,7 @@
 
 > Generate high-entropy, secure random secrets for Next.js, Supabase, and more. 100% local generation, never leaves your browser.
 
-![Neo-Brutalism UI Preview](https://raw.githubusercontent.com/Lula380/auth-secret-generator/main/public/preview.png)
+![Auth Secret Generator Preview](https://github.com/user-attachments/assets/5d252ffc-b29d-4a90-b9c8-d57946449d37)
 
 ## Features
 
