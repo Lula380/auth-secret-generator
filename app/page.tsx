@@ -36,12 +36,7 @@ export default function Home() {
   const templateContent = useCallback(() => {
     switch (template) {
       case "nextauth":
-        return `NEXTAUTH_SECRET=${secret}
-NEXTAUTH_URL=http://localhost:3000`;
       case "supabase":
-        return `SUPABASE_URL=https://your-project.supabase.co
-SUPABASE_ANON_KEY=your-anon-key
-NEXTAUTH_SECRET=${secret}`;
       case "generic":
         return `AUTH_SECRET=${secret}`;
     }

@@ -20,11 +20,13 @@
 
 ## Supported Templates
 
-| Platform | Variables |
-|----------|-----------|
-| **NextAuth.js** | `NEXTAUTH_SECRET`, `NEXTAUTH_URL` |
-| **Supabase** | `SUPABASE_URL`, `SUPABASE_ANON_KEY`, `NEXTAUTH_SECRET` |
-| **General** | `AUTH_SECRET` |
+| Platform | Output |
+|----------|--------|
+| **NextAuth.js** | `AUTH_SECRET=<generated-key>` |
+| **Supabase** | `AUTH_SECRET=<generated-key>` |
+| **General** | `AUTH_SECRET=<generated-key>` |
+
+*All templates generate the same `AUTH_SECRET` format — a 64-character Base64 encoded random string.*
 
 ## Quick Start
 
