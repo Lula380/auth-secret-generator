@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Auth Secret Generator
 
-## Getting Started
+![Auth Secret Generator](https://img.shields.io/badge/Auth-Secret%20Generator-FFD43B?style=for-the-badge&labelColor=1a1a1a)
+![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-First, run the development server:
+> Generate high-entropy, secure random secrets for Next.js, Supabase, and more. 100% local generation, never leaves your browser.
+
+![Neo-Brutalism UI Preview](https://raw.githubusercontent.com/Lula380/auth-secret-generator/main/public/preview.png)
+
+## Features
+
+- 🔐 **Secure Generation** — Uses `crypto.getRandomValues()` for cryptographically secure random bytes
+- ⚡ **100% Local** — All generation happens in your browser, secrets never transmitted anywhere
+- 🎨 **Neo-Brutalism UI** — Bold, punchy design that stands out from typical developer tools
+- 📋 **One-Click Copy** — Copy secrets or full `.env` templates instantly
+- 📱 **Responsive** — Works perfectly on desktop, tablet, and mobile
+- 🌙 **Dark Mode Ready** — Clean styling ready for dark theme
+
+## Supported Templates
+
+| Platform | Variables |
+|----------|-----------|
+| **NextAuth.js** | `NEXTAUTH_SECRET`, `NEXTAUTH_URL` |
+| **Supabase** | `SUPABASE_URL`, `SUPABASE_ANON_KEY`, `NEXTAUTH_SECRET` |
+| **General** | `AUTH_SECRET` |
+
+## Quick Start
 
 ```bash
+# Clone the repository
+git clone https://github.com/Lula380/auth-secret-generator.git
+
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: Next.js 16 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Fonts**: Geist Sans + Geist Mono
 
-## Learn More
+## Deploy to Vercel
 
-To learn more about Next.js, take a look at the following resources:
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/import?filter=next.js)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Fork this repo
+2. Click "Deploy" above
+3. Connect your GitHub account
+4. Done! 🎉
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Usage
 
-## Deploy on Vercel
+1. Open the app — a secure secret is generated automatically
+2. Click **Generate New Secret** to create a new one
+3. Select your framework template (NextAuth.js / Supabase / General)
+4. Copy the secret or full `.env` template with one click
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT © 2024
