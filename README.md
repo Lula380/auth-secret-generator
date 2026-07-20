@@ -12,7 +12,8 @@
 
 - 🔐 **Secure Generation** — Uses `crypto.getRandomValues()` for cryptographically secure random bytes
 - ⚡ **100% Local** — All generation happens in your browser, secrets never transmitted anywhere
-- 🎨 **Neo-Brutalism UI** — Bold, punchy design that stands out from typical developer tools
+- 🎨 **Design Philosophy** — Inspired by Neo-Brutalism, featuring bold colors and high-contrast interfaces to provide a punchy, memorable user experience.
+
 - 📋 **One-Click Copy** — Copy secrets or full `.env` templates instantly
 - 📱 **Responsive** — Works perfectly on desktop, tablet, and mobile
 - 🌙 **Dark Mode Ready** — Clean styling ready for dark theme
