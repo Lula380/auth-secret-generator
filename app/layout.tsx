@@ -14,9 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Auth Secret Generator | Secure Keys for Next.js, Supabase & Clerk",
+  title: "Auth Secret Generator - Secure Keys for NextAuth, Supabase & Clerk",
   description:
-    "Generate high-entropy, secure random secrets for Next.js, Auth.js, Supabase, and more. 100% local generation, never leaves your browser. Optimized for indie hackers and developers.",
+    "Generate secure, high-entropy random secrets for Next.js, Supabase, Clerk, and JWT. 100% client-side generation for maximum security.",
+
   keywords: [
     "auth secret",
     "nextauth secret",
@@ -29,16 +30,16 @@ export const metadata: Metadata = {
     "env secrets",
   ],
   openGraph: {
-    title: "Auth Secret Generator",
+    title: "Auth Secret Generator - Secure Keys for NextAuth, Supabase & Clerk",
     description:
-      "Generate high-entropy, secure random secrets for your apps. 100% local, never leaves your browser.",
+      "Generate secure, high-entropy random secrets for Next.js, Supabase, Clerk, and JWT. 100% client-side generation for maximum security.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Auth Secret Generator",
+    title: "Auth Secret Generator - Secure Keys for NextAuth, Supabase & Clerk",
     description:
-      "Generate high-entropy, secure random secrets for your apps. 100% local, never leaves your browser.",
+      "Generate secure, high-entropy random secrets for Next.js, Supabase, Clerk, and JWT. 100% client-side generation for maximum security.",
   },
 };
 

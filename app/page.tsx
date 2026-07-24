@@ -230,6 +230,31 @@ export default function Home() {
         >
           🔒 Local Only · Never leaves your browser
         </div>
+
+        {/* Footer SEO Text */}
+        <div className="mt-8 max-w-xl text-center text-sm leading-relaxed text-gray-400">
+          <p className="mb-3 font-semibold text-gray-500">
+            Why use this Auth Secret Generator?
+          </p>
+          <p className="mb-3">
+            When setting up modern web applications, a secure, high-entropy
+            secret key is essential for protecting user sessions and data. This
+            tool provides a fast and reliable way to generate cryptographically
+            strong random strings for your .env files.
+          </p>
+          <p className="mb-3">
+            Whether you need a NEXTAUTH_SECRET for Next.js, a
+            SUPABASE_AUTH_JWT_SECRET, or a secure key for Clerk, Lucia Auth, or
+            Prisma, our generator ensures your application meets industry
+            security standards.
+          </p>
+          <p>
+            <strong className="text-gray-500">Security First:</strong> All
+            secrets are generated locally in your browser using the Web Crypto
+            API. No data is ever sent to a server, ensuring your keys remain
+            private and secure.
+          </p>
+        </div>
       </div>
     </div>
   );
